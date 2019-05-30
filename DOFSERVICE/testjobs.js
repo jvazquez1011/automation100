@@ -12,9 +12,6 @@ var con = mysql.createConnection({
     database: "ExchangeRate"
 });
 
-
-
-
 var f = new Date();
 dateFormat(f, "isoDate");
 var year = f.getFullYear();
